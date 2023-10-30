@@ -68,6 +68,8 @@ armSolenoid = new DoubleSolenoid(0, PneumaticsModuleType.CTREPCM, 0, 1);
     }
     public void stop() {
         armSolenoid.set(Value.kOff);
+        
+        //armSolenoid.close();
     }
 
     // Put methods for controlling this subsystem

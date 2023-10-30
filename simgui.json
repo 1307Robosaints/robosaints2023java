@@ -1,7 +1,32 @@
 {
   "HALProvider": {
     "Other Devices": {
+      "Compressor[0]": {
+        "header": {
+          "open": true
+        }
+      },
       "SPARK MAX [1]": {
+        "header": {
+          "open": true
+        }
+      },
+      "SPARK MAX [2]": {
+        "header": {
+          "open": true
+        }
+      },
+      "SPARK MAX [3]": {
+        "header": {
+          "open": true
+        }
+      },
+      "SPARK MAX [4]": {
+        "header": {
+          "open": true
+        }
+      },
+      "SPARK MAX [5]": {
         "header": {
           "open": true
         }
@@ -28,13 +53,22 @@
       "/FMSInfo": "FMSInfo",
       "/SmartDashboard/ArmDown": "Command",
       "/SmartDashboard/ArmUp": "Command",
+      "/SmartDashboard/Auto Goal": "String Chooser",
       "/SmartDashboard/Auto Mode": "String Chooser",
       "/SmartDashboard/ElevatorDown": "Command",
       "/SmartDashboard/ElevatorUp": "Command",
       "/SmartDashboard/GrabberExtend": "Command",
+      "/SmartDashboard/GrabberGrab": "Command",
       "/SmartDashboard/GrabberHold": "Command",
       "/SmartDashboard/GrabberRetract": "Command",
       "/SmartDashboard/VisionAuto": "Command"
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "SmartDashboard": {
+        "open": true
+      }
     }
   }
 }

@@ -58,10 +58,19 @@ elevatorMotor = new CANSparkMax(5, MotorType.kBrushless);
         // This method will be called once per scheduler run when in simulation
     }
     public void up() {
-        elevatorMotor.set(.45);
+    //    if (elevatorMotor.getOutputCurrent() < 20.5) {
+            elevatorMotor.set(.45);
+      //  } else {
+      //      elevatorMotor.set(0.0);
+       // }
+      //  
     }
     public void down() {
-        elevatorMotor.set(-.45);
+      //  if (elevatorMotor.getOutputCurrent() < 20.5) {
+            elevatorMotor.set(-.45);
+       // } else {
+           // elevatorMotor.set(0.0);
+      //  }
     }
     public void stopMotor() {
         elevatorMotor.set(0.0);
